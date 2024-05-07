@@ -52,7 +52,7 @@ function App() {
           <div key={message.content} className="text-container shadow rounded-lg p-2 flex bg-gray-900 text-white">
             {message.role === 'user' ? (<button><img className="h-8 w-8" src="/src/assets/user.png" alt="" /></button>) : (<button><img className="h-8 w-8" src="/src/assets/assis.png" alt="" /></button>)}<pre>{message.content}</pre>
           </div>
-        ))}
+        ))} 
         <AlwaysScrollToBottom />
     </div>
     <div className="button-container sticky bottom-0 bg-gray-900 justify-end p-8 rounded-lg shadow-lg w-full sm:w-auto md:w-3/4 lg:w-1/2">
