@@ -34,9 +34,7 @@ function App() {
           messages,
         })
       })
-      console.log(messages)
       const resp = await response.json()
-      console.log(resp)
       setResults(`${results} ${resp}`)
       messages.push({role: "assistant", content: resp})
       setIsPending(false)
