@@ -1,0 +1,1509 @@
+{
+    "object": "list",
+    "data": [
+      {
+        "id": "gpt-3.5-turbo-0301",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "gpt-3.5-turbo-0613",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "gpt-3.5-turbo",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "gpt-3.5-turbo-1106",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "gpt-3.5-turbo-0125",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "gpt-3.5-turbo-instruct",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "gpt-3.5-turbo-instruct-0914",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "gpt-3.5-turbo-16k",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "gpt-4-0613",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "gpt-4",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "gpt-4-32k",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": false
+      },
+      {
+        "id": "gpt-4-1106-preview",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": false
+      },
+      {
+        "id": "gpt-4-0125-preview",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": false
+      },
+      {
+        "id": "gpt-4-turbo-preview",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": false
+      },
+      {
+        "id": "gpt-4-turbo-2024-04-09",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": false
+      },
+      {
+        "id": "gpt-4-vision-preview",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": false
+      },
+      {
+        "id": "claude",
+        "object": "model",
+        "owned_by": "anthropic",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "claude-1.2",
+        "object": "model",
+        "owned_by": "anthropic",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "claude-2",
+        "object": "model",
+        "owned_by": "anthropic",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "claude-2.1",
+        "object": "model",
+        "owned_by": "anthropic",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "claude-3-haiku",
+        "object": "model",
+        "owned_by": "anthropic",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "claude-3-sonnet",
+        "object": "model",
+        "owned_by": "anthropic",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": false
+      },
+      {
+        "id": "claude-3-opus",
+        "object": "model",
+        "owned_by": "anthropic",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": false
+      },
+      {
+        "id": "claude-instant-1",
+        "object": "model",
+        "owned_by": "anthropic",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "claude-instant-1.2",
+        "object": "model",
+        "owned_by": "anthropic",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "caramelldansen-1",
+        "object": "model",
+        "owned_by": "zukijourney",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "caramelldansen-1-plus",
+        "object": "model",
+        "owned_by": "zukijourney",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": false
+      },
+      {
+        "id": "dbrx-instruct",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "zephyr-141b",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "zephyr-7b-beta",
+        "object": "model",
+        "owned_by": "cloudflare",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "command-r",
+        "object": "model",
+        "owned_by": "cohere",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "command-r-plus",
+        "object": "model",
+        "owned_by": "cohere",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "command-light-nightly",
+        "object": "model",
+        "owned_by": "cohere",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "command",
+        "object": "model",
+        "owned_by": "cohere",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "command-light",
+        "object": "model",
+        "owned_by": "cohere",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "c4ai-aya",
+        "object": "model",
+        "owned_by": "cohere",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "starling-lm-7b-beta",
+        "object": "model",
+        "owned_by": "cloudflare",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "olmo-7b-instruct",
+        "object": "model",
+        "owned_by": "allenai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": false
+      },
+      {
+        "id": "gemini-pro",
+        "object": "model",
+        "owned_by": "google",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "gemini-1.5-pro-latest",
+        "object": "model",
+        "owned_by": "google",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "mixtral-8x7b-instruct",
+        "object": "model",
+        "owned_by": "mistralai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "mixtral-8x22b",
+        "object": "model",
+        "owned_by": "mistralai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "mistral-tiny",
+        "object": "model",
+        "owned_by": "mistralai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "mistral-small",
+        "object": "model",
+        "owned_by": "mistralai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "mistral-medium",
+        "object": "model",
+        "owned_by": "mistralai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "mistral-large",
+        "object": "model",
+        "owned_by": "mistralai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "mistral-7b-instruct",
+        "object": "model",
+        "owned_by": "mistralai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "mistral-7b-instruct-v2",
+        "object": "model",
+        "owned_by": "mistralai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "reka-core",
+        "object": "model",
+        "owned_by": "reka",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "reka-flash",
+        "object": "model",
+        "owned_by": "reka",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "reka-edge",
+        "object": "model",
+        "owned_by": "reka",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "yi-34b",
+        "object": "model",
+        "owned_by": "replicate",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "openchat-3.5",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "phi-2",
+        "object": "model",
+        "owned_by": "cloudflare",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "phi-3",
+        "object": "model",
+        "owned_by": "microsoft",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "openchat-3.5-0106",
+        "object": "model",
+        "owned_by": "cloudflare",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "sheep-duck-llama",
+        "object": "model",
+        "owned_by": "replicate",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "goliath-120b",
+        "object": "model",
+        "owned_by": "replicate",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "solar10-7b",
+        "object": "model",
+        "owned_by": "replicate",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "vicuna-13b",
+        "object": "model",
+        "owned_by": "replicate",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "gemma-7b",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "gemma-1.1-7b",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "chronos-hermes-13b",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "WizardLM-2-8x22B",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/unf/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "WizardLM-2-7B",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/unf/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "llama-2-7b",
+        "object": "model",
+        "owned_by": "cloudflare",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "llama-2-13b",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "llama-2-70b",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "llama-3-8b-instruct",
+        "object": "model",
+        "owned_by": "meta",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "llama-3-70b-instruct",
+        "object": "model",
+        "owned_by": "meta",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "openchat-3.5",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "phind-codellama-34b",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "llava-1.5",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "llava-1.6-34b",
+        "object": "model",
+        "owned_by": "metaai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "llava-1.6-7b",
+        "object": "model",
+        "owned_by": "metaai",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "lzlv-70b",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "airoboros-70b",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "airoboros-70b-gpt4",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "qwen1.5-0.5b-chat",
+        "object": "model",
+        "owned_by": "cloudflare",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "qwen1.5-1.8b-chat",
+        "object": "model",
+        "owned_by": "cloudflare",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "qwen1.5-7b-chat",
+        "object": "model",
+        "owned_by": "cloudflare",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "qwen1.5-14b-chat",
+        "object": "model",
+        "owned_by": "cloudflare",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "qwen1.5-110b-chat",
+        "object": "model",
+        "owned_by": "alibaba",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "deepseek-coder-6.7b-base",
+        "object": "model",
+        "owned_by": "cloudflare",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "deepseek-coder-6.7b-instruct",
+        "object": "model",
+        "owned_by": "cloudflare",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "deepseek-math-7b-instruct",
+        "object": "model",
+        "owned_by": "cloudflare",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "codellama-7b-instruct",
+        "object": "model",
+        "owned_by": "cloudflare",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "codellama-34b-instruct",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "codellama-70b-instruct",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "starcoder2-15b",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "dolphin-mixtral",
+        "object": "model",
+        "owned_by": "deepinfra",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "pi",
+        "object": "model",
+        "owned_by": "pi",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "mythomist-7b",
+        "object": "model",
+        "owned_by": "openrouter",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "mythomax-l2-13b",
+        "object": "model",
+        "owned_by": "openrouter",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "cinematika-7b",
+        "object": "model",
+        "owned_by": "openrouter",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "toppy-7b",
+        "object": "model",
+        "owned_by": "openrouter",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "nous-capybara-7b",
+        "object": "model",
+        "owned_by": "openrouter",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "sonar-small-chat",
+        "object": "model",
+        "owned_by": "perplexity",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "sonar-medium-chat",
+        "object": "model",
+        "owned_by": "perplexity",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "sonar-small-online",
+        "object": "model",
+        "owned_by": "perplexity",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "sonar-medium-online",
+        "object": "model",
+        "owned_by": "perplexity",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "llama-3-sonar-small-32k-online",
+        "object": "model",
+        "owned_by": "perplexity",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "llama-3-sonar-small-32k-chat",
+        "object": "model",
+        "owned_by": "perplexity",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "llama-3-sonar-large-32k-online",
+        "object": "model",
+        "owned_by": "perplexity",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "llama-3-sonar-large-32k-chat",
+        "object": "model",
+        "owned_by": "perplexity",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "perplexity-related",
+        "object": "model",
+        "owned_by": "perplexity",
+        "type": "chat.completions",
+        "endpoint": "/v1/chat/completions",
+        "is_free": true
+      },
+      {
+        "id": "dall-e-3",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": false
+      },
+      {
+        "id": "midjourney",
+        "object": "model",
+        "owned_by": "midjourney",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": false
+      },
+      {
+        "id": "stable-diffusion-3",
+        "object": "model",
+        "owned_by": "stable-diffusion",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": false
+      },
+      {
+        "id": "sdxl",
+        "object": "model",
+        "owned_by": "stable-diffusion",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "sdxl-turbo",
+        "object": "model",
+        "owned_by": "stable-diffusion",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "kandinsky-2.2",
+        "object": "model",
+        "owned_by": "sberbank",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "kandinsky-3",
+        "object": "model",
+        "owned_by": "sberbank",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "leonardo-ai",
+        "object": "model",
+        "owned_by": "leonardo",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "latent-consistency-model",
+        "object": "model",
+        "owned_by": null,
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "playground-v2",
+        "object": "model",
+        "owned_by": "playgroundai",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "playground-v2.5",
+        "object": "model",
+        "owned_by": "playgroundai",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "pollinations",
+        "object": "model",
+        "owned_by": "pollinationsai",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "dreamshaper-xl-turbo",
+        "object": "model",
+        "owned_by": "replicate",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "realvisxl-v3",
+        "object": "model",
+        "owned_by": "replicate",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "realvisxl-v4",
+        "object": "model",
+        "owned_by": "replicate",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "pixart-xl-2",
+        "object": "model",
+        "owned_by": "replicate",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "proteus-v4",
+        "object": "model",
+        "owned_by": "replicate",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "sdxl-deepcache",
+        "object": "model",
+        "owned_by": "replicate",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "pastel-mix-anime",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "absolute-reality-v1.6",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "absolute-reality-v1.8.1",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "anything-v3",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "anything-v4.5",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "anything-v5",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "meinamix",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "deliberate-v2",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "deliberate-v3",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "rev-animated",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "dreamshaper-6",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "dreamshaper-7",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "dreamshaper-8",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "realistic-vision-v1.4",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "realistic-vision-v2",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "realistic-vision-v4",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "realistic-vision-v5",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "openjourney-v4",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "am-i-real-v4.1",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "analog-v1",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "abyssorangemix-v3",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "blazing-drive-v10g",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "cetusmix-version35",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "counterfeit-v3.0",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "cyberrealistic-v3.3",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "dalcefo-v4",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "dreamlike-anime-v1",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "dreamlike-diffusion-v1",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "dreamlike-photoreal-v2",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "edge-of-realism-eor-v2.0",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "eimis-anime-diffusion-v1.0",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "elldreth's-vivid",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "epicrealism-natural-sin-rc1",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "juggernaut-aftermath",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "lofi-v4",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "lyriel-v1.6",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "majicmix-realistic-v4",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "mechamix-v1.0",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "meinamix-meina-v9",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "neverending-dream-v1.22",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "protogen-x3.4",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "redshift-diffusion-v1.0",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "rundiffusion-fx-2.5d-v1.0",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "rundiffusion-fx-photorealistic-v1.0",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "sd-v1.4",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "sd-v1.5",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "sd-v1.5-inpainting",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "timeless-v1",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "toonyou-beta-6",
+        "object": "model",
+        "owned_by": "prodia",
+        "type": "images.generations",
+        "endpoint": "/v1/images/generations",
+        "is_free": true
+      },
+      {
+        "id": "gtts",
+        "object": "model",
+        "owned_by": "google",
+        "type": "audio.speech",
+        "endpoint": "/v1/audio/speech",
+        "is_free": true
+      },
+      {
+        "id": "tts-1",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "audio.speech",
+        "endpoint": "/v1/audio/speech",
+        "is_free": true
+      },
+      {
+        "id": "tts-1-hd",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "audio.speech",
+        "endpoint": "/v1/audio/speech",
+        "is_free": true
+      },
+      {
+        "id": "bark",
+        "object": "model",
+        "owned_by": "suno.ai",
+        "type": "audio.speech",
+        "endpoint": "/v1/audio/speech",
+        "is_free": true
+      },
+      {
+        "id": "elevenlabs",
+        "object": "model",
+        "owned_by": "elevenlabs",
+        "type": "audio.speech",
+        "endpoint": "/v1/audio/speech",
+        "is_free": false
+      },
+      {
+        "id": "speechify",
+        "object": "model",
+        "owned_by": "speechify",
+        "type": "audio.speech",
+        "endpoint": "/v1/audio/speech",
+        "is_free": true
+      },
+      {
+        "id": "text-embedding-ada-002",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "embeddings",
+        "endpoint": "/v1/embeddings",
+        "is_free": true
+      },
+      {
+        "id": "text-embedding-3-small",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "embeddings",
+        "endpoint": "/v1/embeddings",
+        "is_free": true
+      },
+      {
+        "id": "text-embedding-3-large",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "embeddings",
+        "endpoint": "/v1/embeddings",
+        "is_free": false
+      },
+      {
+        "id": "e5-mistral-7b-instruct",
+        "object": "model",
+        "owned_by": "mistralai",
+        "type": "embeddings",
+        "endpoint": "/v1/embeddings",
+        "is_free": true
+      },
+      {
+        "id": "nomic-embed-text",
+        "object": "model",
+        "owned_by": "nomicai",
+        "type": "embeddings",
+        "endpoint": "/v1/embeddings",
+        "is_free": true
+      },
+      {
+        "id": "mxbai-embed-large-v1",
+        "object": "model",
+        "owned_by": "mixedbread",
+        "type": "embeddings",
+        "endpoint": "/v1/embeddings",
+        "is_free": true
+      },
+      {
+        "id": "whisper",
+        "object": "model",
+        "owned_by": "openai",
+        "type": "audio.transcriptions",
+        "endpoint": "/v1/audio/transcriptions",
+        "is_free": true
+      },
+      {
+        "id": "google-translate",
+        "object": "model",
+        "owned_by": "google",
+        "type": "text.translations",
+        "endpoint": "/v1/text/translations",
+        "is_free": true
+      },
+      {
+        "id": "upscale-upscale",
+        "object": "model",
+        "owned_by": "https://arxiv.org/abs/2105.09750",
+        "type": "images.upscale",
+        "endpoint": "/v1/images/upscale",
+        "is_free": true
+      }
+    ]
+  }
