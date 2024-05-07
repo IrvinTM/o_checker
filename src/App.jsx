@@ -6,23 +6,26 @@ function App() {
   const [results, setResults] = useState("");
   const [isPending, setIsPending] = useState(false)
   const myserv = import.meta.env.VITE_API_URL
+  const messages = []
   const handleChange = (event) => {
     setTexto(event.target.value);
   };
 
    const sentRequest = async () => {
     try {
+      const message = { role: "user", content: text }
+      messages.push(message)
       setIsPending(true)
       const response = await fetch(myserv, {
         method: "POST",
         headers: {
           "Content-Type": "application/json"},
         body: JSON.stringify({
-          texto: texto,
+          messages,
         })
       })
       const resp = await response.json()
-      
+      console.log(resp)
       setResults(resp)
       setIsPending(false)
     } catch (error) {
