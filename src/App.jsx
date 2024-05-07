@@ -30,40 +30,30 @@ function App() {
     }
   }
   return (
-    <div className="min-h-screen flex flex-col items-center justify-center bg-gray-900">
-  <div className="bg-gray-900 rounded-lg shadow-lg w-full sm:w-auto md:w-3/4 lg:w-1/2">
-    <textarea
-      value={results}
-      readOnly
-      className="border-2 border-yellow-400 rounded-lg p-2 flex bg-gray-900 text-white w-full h-48 resize-none"
-      name="result"
-      id="result"
-    ></textarea>
-  </div>
-  <div className="bg-gray-900 p-8 rounded-lg shadow-lg w-full sm:w-auto md:w-3/4 lg:w-1/2">
-    <textarea
-      className="border-2 border-yellow-400 rounded-lg p-2 mb-2 resize-none bg-gray-900 text-white w-full"
-      value={texto}
-      onChange={handleChange}
-      name="result"
-      placeholder="Write your message..."
-    ></textarea>
-    <div className="bg-gray-900">
-      {!isPending &&<button
-        onClick={sentRequest}
-        className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-4"
-      >
-        Ask gpt 4
-      </button>}
-      {isPending &&<button
-      disabled
-        className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-4"
-      >
-        Thinking...
-      </button>}
+    <div className="min-h-screen flex flex-col items-center bg-gray-900">
+    <div className="content-wrapper flex flex-col bg-gray-900 rounded-lg shadow-lg w-60 sm:w-auto md:w-3/4 lg:w-1/2">
+      <div className="text-container shadow rounded-lg p-2 flex bg-gray-900 text-white">
+        <p>{results}</p>
+      </div>
+    </div>
+    <div className="button-container sticky bottom-0 bg-gray-900 justify-end p-8 rounded-lg shadow-lg w-full sm:w-auto md:w-3/4 lg:w-1/2">
+    <textarea className="border rounded-lg p-2 mb-2 resize-none bg-gray-900 text-white w-full" value={texto} onChange={handleChange} name="result" placeholder="Write your message..."></textarea>
+      <div className="button-wrapper flex justify-end gap-2">
+        {!isPending && (
+          <button onClick={sentRequest} className="text-white bg-purple-700 hover:bg-purple-800 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-4">
+            Ask GPT-4
+          </button>
+        )}
+        {isPending && (
+          <button disabled className="text-white bg-purple-700 focus:ring-4 focus:ring-purple-300 font-medium rounded-lg text-sm px-5 py-2.5 mb-4">
+           Processing...
+          </button>
+        )}
+      </div>
     </div>
   </div>
-</div>
+  
+
   );
 }
 
