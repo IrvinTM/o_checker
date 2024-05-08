@@ -46,7 +46,7 @@ function App() {
     <div className="min-h-screen flex flex-col items-center bg-gray-900">
     <div className="content-wrapper flex flex-col break-normal bg-gray-900 rounded-lg shadow-lg sm:w-auto md:w-3/4 lg:w-1/2">
       {messages.map((message) => (
-          <div key={message.content} className="border-t rounded-b-lg  text-container border-teal-900  shadow p-2 flex bg-gray-900 text-white">
+          <div key={message.content} className="border-t rounded-b-lg  text-container border-teal-900  shadow p-2 bg-gray-900 text-white">
             <div className="relative top-0 left-0 h-8 w-8">{message.role === 'user' ? (<button className="h-8 w-8"><img className="h-8 w-8" src="https://cdn3.emoji.gg/emojis/8748_gigachad.png" alt="" /></button>) : (<button><img className="h-8 w-8" src="https://cdn3.emoji.gg/emojis/5289-iqdog.png" alt="" /></button>)}</div>
             <pre className="whitespace-pre-line">{message.content}</pre>
           </div>
