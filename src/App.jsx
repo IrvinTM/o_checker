@@ -50,7 +50,8 @@ function App() {
             <div className="relative top-0 left-0 h-8 w-8">{message.role === 'user' ? (<button className="h-8 w-8"><img className="h-8 w-8" src="https://cdn3.emoji.gg/emojis/8748_gigachad.png" alt="" /></button>) : (<button><img className="h-8 w-8" src="https://cdn3.emoji.gg/emojis/5289-iqdog.png" alt="" /></button>)}</div>
             <pre className="whitespace-pre-line">{message.content}</pre>
           </div>
-        ))} 
+        ))}    
+      
         <AlwaysScrollToBottom />
     </div>
     <div className="button-container sticky bottom-0 bg-gray-900 justify-end p-8 rounded-lg shadow-lg w-full sm:w-auto md:w-3/4 lg:w-1/2">
