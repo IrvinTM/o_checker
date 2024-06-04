@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import "./index.css";
 
-const messages = [{role: "assistant", content: "Hola como puedo ayudarte hoy"}]
+const messages = [{role: "assistant", content: "Hola, /imagine para generar una imagen"}]
 
 function App() {
   const [img, setImg] = useState();
